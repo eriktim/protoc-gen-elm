@@ -1,3 +1,6 @@
+**This repository is no longer the source of the [protoc-gen-elm](https://www.npmjs.com/package/protoc-gen-elm) package.  
+Please visit [https://github.com/andreasewering/protoc-gen-elm](https://github.com/andreasewering/protoc-gen-elm) instead.**
+
 # Elm Plugin for Protocol Buffers [![Build Status](https://travis-ci.org/eriktim/protoc-gen-elm.svg?branch=master)](https://travis-ci.org/eriktim/protoc-gen-elm)
 
 This [`protoc`](https://developers.google.com/protocol-buffers/) plug-in generates [Elm](https://elm-lang.org/) modules from `.proto` specification files. The generated modules make use of the [elm-protocol-buffers](https://package.elm-lang.org/packages/eriktim/elm-protocol-buffers/latest/) library to handle the (de)serialization. They can be used to transmit bytes over HTTP(S) or via web-sockets. However, this plug-in itself does **not** implement or generate any Remote Procedure Call (RPC) logic.
